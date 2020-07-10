@@ -20,10 +20,8 @@ def printList(head):
         head = head.next
     print("NULL")
 
-
 #create first empty node
 List1 = Single_Linked_List_Init_Node()
-
 
 #start adding elements to it
 List1.headval = AddNode(1)
